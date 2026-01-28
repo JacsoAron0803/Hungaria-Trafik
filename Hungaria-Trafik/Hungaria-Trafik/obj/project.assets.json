@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jacsoaron\\.nuget\\packages\\": {}
+    "C:\\Users\\csillagpeter\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik.csproj",
+      "projectUniqueName": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik.csproj",
       "projectName": "Hungaria-Trafik",
-      "projectPath": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik.csproj",
-      "packagesPath": "C:\\Users\\jacsoaron\\.nuget\\packages\\",
-      "outputPath": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\obj\\",
+      "projectPath": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik.csproj",
+      "packagesPath": "C:\\Users\\csillagpeter\\.nuget\\packages\\",
+      "outputPath": "D:\\Hungaria-Trafik\\Hungaria-Trafik\\Hungaria-Trafik\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jacsoaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\csillagpeter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
