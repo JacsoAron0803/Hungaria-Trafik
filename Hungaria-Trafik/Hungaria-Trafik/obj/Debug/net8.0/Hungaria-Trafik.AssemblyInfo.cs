@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hungaria-Trafik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a20a5083b041a0ddc6f5af5d9522a9ed8c834c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ed870747b8678683e7ef10897997cafb31ed0c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hungaria-Trafik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hungaria-Trafik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
