@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <Reference Include="FileIO">
-      <HintPath>C:\Users\csillagpeter\Downloads\FileIO.dll</HintPath>
+      <HintPath>H:\_aszaf_25_36_\FileIO.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -9,7 +9,7 @@ internal class Program
     {
         Adatbeolvasas("termekek.xlsx", 6, ';', true);
         AdatBetoltes(adatok);
-        EletkorEllenor();
+
     }
 
     private static void AdatBetoltes(List<List<string>> adatok)
