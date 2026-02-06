@@ -7,7 +7,7 @@ internal class Program
     private static FileIO.ReadFromFile reader = new FileIO.ReadFromFile();
     private static void Main(string[] args)
     {
-        Adatbeolvasas("termekek.csv", 6, ';', true);
+        Adatbeolvasas("termekek.xlsx", 6, ';', true);
         AdatBetoltes(adatok);
         EletkorEllenorzo(termekek);
 
@@ -23,6 +23,7 @@ internal class Program
         foreach (var item in adatok)
         {
             Termekek a = new Termekek(Convert.ToInt32(item[0]), item[1], item[2], Convert.ToInt32(item[3]), Convert.ToInt32(item[4]), Convert.ToInt32(item[5]));
+            termekek.Add(a);
         }
     }
 
