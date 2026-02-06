@@ -7,7 +7,7 @@ internal class Program
     private static FileIO.ReadFromFile reader = new FileIO.ReadFromFile();
     private static void Main(string[] args)
     {
-        Adatbeolvasas("termekek.xlsx", 6, ';', true);
+        Adatbeolvasas("termekek.csv", 6, ';', true);
         AdatBetoltes(adatok);
         EletkorEllenorzo(termekek);
 

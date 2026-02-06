@@ -1,0 +1,101 @@
+Id;Name;Category;Price;Stock;AgeLimit
+1;Marlboro Red;Cigaretta;2390;25;18
+2;Marlboro Gold;Cigaretta;2390;18;18
+3;Camel Blue;Cigaretta;2290;0;18
+4;Camel Yellow;Cigaretta;2290;14;18
+5;Winston Classic;Cigaretta;2190;12;18
+6;Lucky Strike;Cigaretta;2290;6;18
+7;Pall Mall Blue;Cigaretta;2090;20;18
+8;Pall Mall Red;Cigaretta;2090;0;18
+9;Davidoff Gold;Cigaretta;2490;9;18
+10;Chesterfield Blue;Cigaretta;1990;11;18
+11;Heets Amber;Hevített dohány;1990;30;18
+12;Heets Yellow;Hevített dohány;1990;2;18
+13;Heets Turquoise;Hevített dohány;1990;0;18
+14;Heets Sienna;Hevített dohány;1990;8;18
+15;Terea Regular;Hevített dohány;2090;16;18
+16;Terea Black;Hevített dohány;2090;5;18
+17;Terea Menthol;Hevített dohány;2090;0;18
+18;Fiit Regular;Hevített dohány;1890;22;18
+19;Fiit Dark Roast;Hevített dohány;1890;3;18
+20;Fiit Menthol;Hevített dohány;1890;0;18
+21;Iqos Iluma;Készülék;34990;4;18
+22;Iqos Iluma One;Készülék;29990;2;18
+23;Iqos Iluma Prime;Készülék;39990;1;18
+24;Glo Hyper;Készülék;29990;1;18
+25;Glo Pro Slim;Készülék;27990;0;18
+26;Vuse Go;E-cigaretta;3490;15;18
+27;Elf Bar 600;E-cigaretta;3990;0;18
+28;Lost Mary BM600;E-cigaretta;4290;7;18
+29;Vaporesso Xros;E-cigaretta;18990;3;18
+30;Smok Nord;E-cigaretta;15990;2;18
+31;Zippo fekete;Kiegészítõ;8990;7;0
+32;Zippo króm;Kiegészítõ;9990;4;0
+33;Clipper piros;Kiegészítõ;990;15;0
+34;Clipper kék;Kiegészítõ;990;0;0
+35;Clipper zöld;Kiegészítõ;990;9;0
+36;Cigarettatárca fém;Kiegészítõ;3490;5;0
+37;Cigarettatárca bõr;Kiegészítõ;5490;2;0
+38;Hamuzó üveg;Kiegészítõ;2490;6;0
+39;Hamuzó fém;Kiegészítõ;1990;0;0
+40;OCB Slim papír;Kiegészítõ;690;18;0
+41;OCB Premium;Kiegészítõ;890;10;0
+42;Rizla Blue;Kiegészítõ;750;9;0
+43;Rizla Green;Kiegészítõ;750;0;0
+44;Mascotte Slim;Kiegészítõ;790;4;0
+45;Filter Slim 6mm;Kiegészítõ;590;20;0
+46;Filter Regular 8mm;Kiegészítõ;590;0;0
+47;Dohány Cherry;Dohány;1890;12;18
+48;Dohány Vanilla;Dohány;1890;6;18
+49;Dohány Original;Dohány;1790;0;18
+50;Pipadohány Classic;Dohány;2990;3;18
+51;Pipadohány Cherry;Dohány;2990;0;18
+52;Szivar Montecristo No4;Szivar;4990;8;18
+53;Szivar Romeo y Julieta;Szivar;5290;5;18
+54;Szivar Cohiba Club;Szivar;6990;2;18
+55;Szivar Vegueros;Szivar;4590;0;18
+56;Szivar Punch;Szivar;4890;4;18
+57;Gyufa hosszú;Kiegészítõ;390;25;0
+58;Gyufa rövid;Kiegészítõ;290;0;0
+59;Öngyújtó gáz;Kiegészítõ;1490;6;0
+60;Pipa fa;Kiegészítõ;8990;1;0
+61;Pipaszûrõ;Kiegészítõ;990;12;0
+62;Pipatisztító;Kiegészítõ;790;0;0
+63;Nikotinmentes folyadék;E-cigaretta;2990;10;18
+64;Mentolos folyadék;E-cigaretta;3290;0;18
+65;Classic Tobacco folyadék;E-cigaretta;3290;7;18
+66;Akkumulátor 18650;Készülék;4990;3;18
+67;USB töltõ kábel;Kiegészítõ;1990;9;0
+68;Szivargyújtó;Kiegészítõ;12990;2;0
+69;Szivarvágó;Kiegészítõ;3490;0;0
+70;Szivartok bõr;Kiegészítõ;8990;1;0
+71;Mentolos filter;Kiegészítõ;690;14;0
+72;Aroma mentol;Kiegészítõ;590;0;0
+73;Aroma vanília;Kiegészítõ;590;6;0
+74;Dohánytartó tasak;Kiegészítõ;2490;3;0
+75;Dohánytömõ gép;Kiegészítõ;3990;0;0
+76;Hüvely standard;Kiegészítõ;490;20;0
+77;Hüvely slim;Kiegészítõ;590;11;0
+78;Hüvely mentolos;Kiegészítõ;690;0;0
+79;Elektromos töltõgép;Készülék;12990;2;0
+80;Kézi töltõgép;Készülék;4990;4;0
+81;Szûrõs hüvely;Kiegészítõ;790;0;0
+82;Dohány mérleg;Készülék;2990;5;0
+83;Szivar hamutál;Kiegészítõ;5990;1;0
+84;Szivar párásító;Készülék;7990;0;0
+85;Szivar doboz;Kiegészítõ;12990;2;0
+86;Készpénztálca;Kiegészítõ;3490;6;0
+87;Aprópénz tálca;Kiegészítõ;2490;0;0
+88;Ártábla állvány;Kiegészítõ;1990;3;0
+89;Reklám matrica;Kiegészítõ;990;12;0
+90;Papírtáska kicsi;Kiegészítõ;190;50;0
+91;Papírtáska nagy;Kiegészítõ;290;40;0
+92;Számlatömb;Kiegészítõ;990;8;0
+93;Nyugtatömb;Kiegészítõ;790;0;0
+94;Kézfertõtlenítõ;Kiegészítõ;1290;15;0
+95;Maszk;Kiegészítõ;490;0;0
+96;Polctisztító spray;Kiegészítõ;1590;4;0
+97;Raktári címke;Kiegészítõ;390;30;0
+98;Vonalkód matrica;Kiegészítõ;490;0;0
+99;Készletnapló;Kiegészítõ;1990;5;0
+100;Hungária Trafik ajándékutalvány;Egyéb;5000;20;0
