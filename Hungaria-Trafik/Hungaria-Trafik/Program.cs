@@ -1,4 +1,5 @@
 ﻿using Hungaria_Trafik.Model;
+using System.Runtime.CompilerServices;
 
 internal class Program
 {
@@ -9,14 +10,23 @@ internal class Program
     {
         Adatbeolvasas("termekek.csv", 6, ';', true);
         AdatBetoltes(adatok);
-        EletkorEllenorzo(termekek);
+        Console.WriteLine("Hány éves vagy?");
+        int felh_kor = Convert.ToInt32(Console.ReadLine());
+        if (felh_kor >= 18)
+        {
+
+        }
+        else
+        {
+            Console.WriteLine("Kiskorú vagy!");
+            System.Threading.Thread.Sleep(3000);
+            return;
+            
+
+        }
 
     }
 
-    private static void EletkorEllenorzo(List<Termekek> termekek)
-    {
-        Console.Write("Hány éves vagy?");
-    }
 
     private static void AdatBetoltes(List<List<string>> adatok)
     {
