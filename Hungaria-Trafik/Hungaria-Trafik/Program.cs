@@ -84,37 +84,79 @@ internal class Program
             {
                 if (item.Category1.Contains("Cigaretta"))
                 {
-                    Console.WriteLine(item.Name1,item.Price1);
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
             }
         }
         else if (kilistazottValasz == 2) 
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Hevített dohány"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 3)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Készülék"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 4)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("E-cigaretta"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 5)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Dohány"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 6)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Egyéb"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 7)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Szivar"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         else if (kilistazottValasz == 8)
         {
-
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Cigaretta"))
+                {
+                    Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
+                }
+            }
         }
         
 
