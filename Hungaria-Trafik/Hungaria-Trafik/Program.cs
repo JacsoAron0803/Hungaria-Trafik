@@ -48,7 +48,8 @@ internal class Program
 
     private static void OsszesTListazasa(List<Termekek> termekek)
     {
-        throw new NotImplementedException();
+        
+
     }
 
     private static void TermekLekerdezes(List<Termekek> termekek)
