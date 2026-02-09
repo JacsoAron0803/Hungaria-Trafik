@@ -6,6 +6,7 @@ internal class Program
     private static List<List<string>> adatok = new List<List<string>>();
     private static List<Termekek> termekek = new List<Termekek>();
     private static FileIO.ReadFromFile reader = new FileIO.ReadFromFile();
+    public static int kilistazottValasz;
     private static void Main(string[] args)
     {
         Adatbeolvasas("termekek.csv", 6, ';', true);
@@ -26,7 +27,11 @@ internal class Program
                 Console.WriteLine("Milyen termék fajtát szeretnél?\n 1--Cigaretta\n2--Hevített dohány" +
                     "\n3--Készülék\n4--E-cigaretta\n5--Kiegészítő\n6--Dohány\n7--Szivar" +
                     "\n8--Egyéb");
-                int kilistazottValasz = Convert.ToInt32(Console.ReadLine());
+                 kilistazottValasz = Convert.ToInt32(Console.ReadLine());
+                OsszesTListazasa(termekek);
+
+
+
             }
             else if (valasz== 3) 
             {
@@ -51,6 +56,44 @@ internal class Program
 
     private static void OsszesTListazasa(List<Termekek> termekek)
     {
+        if(kilistazottValasz == 1) 
+        {
+            foreach (var item in termekek)
+            {
+                if (item.Category1.Contains("Cigaretta"))
+                {
+                    Console.WriteLine(item.Name1,item.Price1);
+                }
+            }
+        }
+        else if (kilistazottValasz == 2) 
+        {
+
+        }
+        else if (kilistazottValasz == 3)
+        {
+
+        }
+        else if (kilistazottValasz == 4)
+        {
+
+        }
+        else if (kilistazottValasz == 5)
+        {
+
+        }
+        else if (kilistazottValasz == 6)
+        {
+
+        }
+        else if (kilistazottValasz == 7)
+        {
+
+        }
+        else if (kilistazottValasz == 8)
+        {
+
+        }
         
 
     }

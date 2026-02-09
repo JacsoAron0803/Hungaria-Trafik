@@ -61,3 +61,24 @@ D:\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\refint\Hungaria-Trafi
 D:\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.pdb
 D:\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.genruntimeconfig.cache
 D:\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\ref\Hungaria-Trafik.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.exe
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.deps.json
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.runtimeconfig.json
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.pdb
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\MySqlConnector.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\FileIO.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.csproj.AssemblyReference.cache
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.AssemblyInfoInputs.cache
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.AssemblyInfo.cs
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.csproj.CoreCompileInputs.cache
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.sourcelink.json
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria.47221B4D.Up2Date
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\refint\Hungaria-Trafik.dll
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.pdb
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.genruntimeconfig.cache
+D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\ref\Hungaria-Trafik.dll
