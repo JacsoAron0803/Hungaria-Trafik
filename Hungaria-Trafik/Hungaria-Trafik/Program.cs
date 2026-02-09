@@ -7,11 +7,13 @@ internal class Program
     private static List<Termekek> termekek = new List<Termekek>();
     private static FileIO.ReadFromFile reader = new FileIO.ReadFromFile();
     public static int kilistazottValasz;
+    public static string valasztottTermek;
+    public static string vasarolniKivantTermek;
     private static void Main(string[] args)
     {
         Adatbeolvasas("termekek.csv", 6, ';', true);
         AdatBetoltes(adatok);
-        Console.WriteLine("Hány éves vagy?");
+        Console.WriteLine("Szia! Hány éves vagy?");
         int felh_kor = Convert.ToInt32(Console.ReadLine());
         if (felh_kor >= 18)
         {
@@ -35,6 +37,8 @@ internal class Program
             }
             else if (valasz== 3) 
             {
+                Console.WriteLine("Melyik terméket szeretnéd megvásárolni?");
+                vasarolniKivantTermek = Console.ReadLine();
                 Vasarlas(termekek);
             }
         }
@@ -51,7 +55,25 @@ internal class Program
 
     private static void Vasarlas(List<Termekek> termekek)
     {
-        throw new NotImplementedException();
+        int db = 0;
+        bool van = false;
+
+        foreach (var item in termekek)
+        {
+            if (item.Name1.ToLower().Contains(vasarolniKivantTermek.ToLower()))
+            {
+                Console.WriteLine("Hány darabot szeretnél vásárolni?");
+                db = Convert.ToInt32(Console.ReadLine());
+                int szorzott = db * Convert.ToInt32(item.Price1);
+                Console.WriteLine($"Összesen {szorzott}Ft lesz!");
+                van = true;
+
+            }
+            else if (!van)
+            {
+                Console.WriteLine("Nincs ilyen termék!");
+            }
+        }
     }
 
     private static void OsszesTListazasa(List<Termekek> termekek)
@@ -100,8 +122,21 @@ internal class Program
 
 
     private static void TermekLekerdezes(List<Termekek> termekek)
-    {
-        throw new NotImplementedException();
+    {     
+        Console.WriteLine("Melyik termékről szeretnéd megtudni, hogy van e készleten?");
+        valasztottTermek = Console.ReadLine();
+        foreach (var item in termekek) 
+        { 
+            if (item.Name1.ToLower().Contains(valasztottTermek.ToLower()))
+            {
+                Console.WriteLine($"{item.Name1} nevű termékből {item.Stock1} van raktáron!");
+            }
+            else
+            {
+                Console.WriteLine("Ilyen nevű dohányterméket nem árulunk!");
+            }
+        }
+
     }
     private static void AdatBetoltes(List<List<string>> adatok)
     {

@@ -82,3 +82,24 @@ D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\refint\Hunga
 D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.pdb
 D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.genruntimeconfig.cache
 D:\Hungaria trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\ref\Hungaria-Trafik.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.exe
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.deps.json
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.runtimeconfig.json
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Hungaria-Trafik.pdb
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\bin\Debug\net8.0\FileIO.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.csproj.AssemblyReference.cache
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.AssemblyInfoInputs.cache
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.AssemblyInfo.cs
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.csproj.CoreCompileInputs.cache
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.sourcelink.json
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria.47221B4D.Up2Date
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\refint\Hungaria-Trafik.dll
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.pdb
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\Hungaria-Trafik.genruntimeconfig.cache
+C:\Users\jacso\OneDrive\Desktop\trafik\Hungaria-Trafik\Hungaria-Trafik\obj\Debug\net8.0\ref\Hungaria-Trafik.dll
