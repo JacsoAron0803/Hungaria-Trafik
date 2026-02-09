@@ -51,11 +51,11 @@ internal class Program
         throw new NotImplementedException();
     }
 
+
     private static void TermekLekerdezes(List<Termekek> termekek)
     {
-        
+        throw new NotImplementedException();
     }
-
     private static void AdatBetoltes(List<List<string>> adatok)
     {
         foreach (var item in adatok)
