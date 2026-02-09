@@ -23,7 +23,10 @@ internal class Program
             }
             else if (valasz == 2) 
             {
-                OsszesTListazasa(termekek);
+                Console.WriteLine("Milyen termék fajtát szeretnél?\n 1--Cigaretta\n2--Hevített dohány" +
+                    "\n3--Készülék\n4--E-cigaretta\n5--Kiegészítő\n6--Dohány\n7--Szivar" +
+                    "\n8--Egyéb");
+                int kilistazottValasz = Convert.ToInt32(Console.ReadLine());
             }
             else if (valasz== 3) 
             {
