@@ -14,11 +14,25 @@ internal class Program
         int felh_kor = Convert.ToInt32(Console.ReadLine());
         if (felh_kor >= 18)
         {
-
+            Console.WriteLine("Miben segíthetek?\n1--Termék lekérdezés\n2--Összes termék kilistázása" +
+                "\n3--Vásárlás");
+            int valasz = Convert.ToInt32(Console.ReadLine());
+            if (valasz == 1)
+            {
+                TermekLekerdezes(termekek);
+            }
+            else if (valasz == 2) 
+            {
+                OsszesTListazasa(termekek);
+            }
+            else if (valasz== 3) 
+            {
+                Vasarlas(termekek);
+            }
         }
         else
         {
-            Console.WriteLine("Kiskorú vagy!");
+            Console.WriteLine("Térj vissza, ha nagykorú vagy!");
             System.Threading.Thread.Sleep(3000);
             return;
             
@@ -27,6 +41,20 @@ internal class Program
 
     }
 
+    private static void Vasarlas(List<Termekek> termekek)
+    {
+        throw new NotImplementedException();
+    }
+
+    private static void OsszesTListazasa(List<Termekek> termekek)
+    {
+        throw new NotImplementedException();
+    }
+
+    private static void TermekLekerdezes(List<Termekek> termekek)
+    {
+        
+    }
 
     private static void AdatBetoltes(List<List<string>> adatok)
     {
