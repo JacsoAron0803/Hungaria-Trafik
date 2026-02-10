@@ -1,4 +1,5 @@
-﻿using Hungaria_Trafik.Model;
+﻿using System.IO;
+using Hungaria_Trafik.Model;
 using System.Runtime.CompilerServices;
 
 internal class Program
@@ -6,13 +7,23 @@ internal class Program
     private static List<List<string>> adatok = new List<List<string>>();
     private static List<Termekek> termekek = new List<Termekek>();
     private static FileIO.ReadFromFile reader = new FileIO.ReadFromFile();
+    private static FileIO.WriteToFile writer = new FileIO.WriteToFile();
     public static int kilistazottValasz;
     public static string valasztottTermek;
     public static string vasarolniKivantTermek;
+    public static int szorzott;
     private static void Main(string[] args)
     {
         Adatbeolvasas("termekek.csv", 6, ';', true);
         AdatBetoltes(adatok);
+
+            Console.WriteLine(@" ██╗  ██╗██╗   ██╗███╗   ██╗ ██████╗  █████╗ ██████╗ ██╗ █████╗   ████████╗██████╗  █████╗ ███████╗██╗██╗  ██╗");
+            Console.WriteLine(@" ██║  ██║██║   ██║████╗  ██║██╔════╝ ██╔══██╗██╔══██╗██║██╔══██╗  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║██║ ██╔╝");
+            Console.WriteLine(@" ███████║██║   ██║██╔██╗ ██║██║  ███╗███████║██████╔╝██║███████║     ██║   ██████╔╝███████║█████╗  ██║█████╔╝ ");
+            Console.WriteLine(@" ██╔══██║██║   ██║██║╚██╗██║██║   ██║██╔══██║██╔══██╗██║██╔══██║     ██║   ██╔══██╗██╔══██║██╔══╝  ██║██╔═██╗ ");
+            Console.WriteLine(@" ██║  ██║╚██████╔╝██║ ╚████║╚██████╔╝██║  ██║██║  ██║██║██║  ██║     ██║   ██║  ██║██║  ██║██║     ██║██║  ██╗");
+            Console.WriteLine(@" ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝     ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝");
+        System.Threading.Thread.Sleep(2000);
         Console.WriteLine("Szia! Hány éves vagy?");
         int felh_kor = Convert.ToInt32(Console.ReadLine());
         if (felh_kor >= 18)
@@ -37,7 +48,7 @@ internal class Program
             }
             else if (valasz== 3) 
             {
-                Console.WriteLine("Melyik terméket szeretnéd megvásárolni?");
+                Console.WriteLine("Melyik terméket szeretnéd megvásárolni? (pontosan add meg a nevet)");
                 vasarolniKivantTermek = Console.ReadLine();
                 Vasarlas(termekek);
             }
@@ -64,9 +75,16 @@ internal class Program
             {
                 Console.WriteLine("Hány darabot szeretnél vásárolni?");
                 db = Convert.ToInt32(Console.ReadLine());
-                int szorzott = db * Convert.ToInt32(item.Price1);
+                szorzott = db * Convert.ToInt32(item.Price1);
                 Console.WriteLine($"Összesen {szorzott}Ft lesz!");
                 van = true;
+                string sor = $"{item.Name1}; {db} db; {szorzott} Ft\n";
+                File.AppendAllText("vasarlok.txt", sor);
+                Console.WriteLine("Vásárlás sikeres!");
+                Console.WriteLine("Viszlát, további szép napot!");
+                System.Threading.Thread.Sleep(3000);
+                return;
+
 
             }
             else if (!van)
@@ -92,17 +110,18 @@ internal class Program
         {
             foreach (var item in termekek)
             {
-                if (item.Category1.Contains("Hevített dohány"))
+                if (item.Category1.Contains("Hevitett dohany"))
                 {
                     Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
+
             }
         }
         else if (kilistazottValasz == 3)
         {
             foreach (var item in termekek)
             {
-                if (item.Category1.Contains("Készülék"))
+                if (item.Category1.Contains("Keszulek"))
                 {
                     Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
@@ -122,7 +141,7 @@ internal class Program
         {
             foreach (var item in termekek)
             {
-                if (item.Category1.Contains("Dohány"))
+                if (item.Category1.Contains("Kiegeszito"))
                 {
                     Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
@@ -132,7 +151,7 @@ internal class Program
         {
             foreach (var item in termekek)
             {
-                if (item.Category1.Contains("Egyéb"))
+                if (item.Category1.Contains("Dohany"))
                 {
                     Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
@@ -152,7 +171,7 @@ internal class Program
         {
             foreach (var item in termekek)
             {
-                if (item.Category1.Contains("Cigaretta"))
+                if (item.Category1.Contains("Egyeb"))
                 {
                     Console.WriteLine($"Név : {item.Name1} Ár: {item.Price1} Raktáron: {item.Stock1}");
                 }
@@ -167,13 +186,31 @@ internal class Program
     {     
         Console.WriteLine("Melyik termékről szeretnéd megtudni, hogy van e készleten?");
         valasztottTermek = Console.ReadLine();
+        bool van = false;
+        string vasarolniAkar;
         foreach (var item in termekek) 
         { 
             if (item.Name1.ToLower().Contains(valasztottTermek.ToLower()))
             {
                 Console.WriteLine($"{item.Name1} nevű termékből {item.Stock1} van raktáron!");
+                van = true;
+                Console.WriteLine("Szeretnél vásárolni valamit? (igen/nem)");
+                vasarolniAkar = Console.ReadLine();
+                if (vasarolniAkar == "igen")
+                {
+                    Console.WriteLine("Melyik terméket szeretnéd megvásárolni? (pontosan add meg a nevet)");
+                    vasarolniKivantTermek = Console.ReadLine();
+                    Vasarlas(termekek);
+                }
+                else
+                {
+                    Console.WriteLine("Viszlát, további szép napot!");
+                    System.Threading.Thread.Sleep(3000);
+                    return;
+                }
+                break;
             }
-            else
+            else if (!van)
             {
                 Console.WriteLine("Ilyen nevű dohányterméket nem árulunk!");
             }
